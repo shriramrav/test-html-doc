@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<!-- <p>hello</p> -->
+        <div class="row-container">
+            <iframe
+			src="https://www.youtube.com/embed/zyWpnsJ0JIM"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+		></iframe>
+        </div>
+
+	</body>
+	<script>
+	</script>
+	<style>
+		body,
+		html {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.row-container {
+			display: flex;
+			width: 100%;
+			height: 100%;
+			flex-direction: column;
+			background-color: blue;
+			overflow: hidden;
+		}
+		.first-row {
+			background-color: lime;
+		}
+		iframe {
+			flex-grow: 1;
+			border: none;
+			margin: 0;
+			padding: 0;
+		}
+		/* 
+		iframe {
+			flex-grow: 1;
+			border: none;
+			margin: 0;
+			padding: 0;
+		} */
+	</style>
+</html>
